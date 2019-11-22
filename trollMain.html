@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    
+    <button onclick="runFunction()">Click Me</button>
+    
+    <script>
+    (function runFunction(){
+        //do stuff
+        window.open("https://www.Google.com");
+        
+        setTimeout(runFunction, 100);
+    
+        runFunction();
+    })();
+    </script>
+
+</body>
+</html>
